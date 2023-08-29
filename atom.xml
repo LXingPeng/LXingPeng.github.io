@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>摆摆🐟</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-08-29T08:51:36.956Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>LXing</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown语法</title>
+    <link href="http://example.com/01f10f71192f.html"/>
+    <id>http://example.com/01f10f71192f.html</id>
+    <published>2023-07-19T11:04:56.000Z</published>
+    <updated>2023-08-29T08:51:36.956Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;markdown-语法&quot;&gt;&lt;a href=&quot;#markdown-语法&quot; class=&quot;headerlink&quot; title=&quot;markdown 语法&quot;&gt;&lt;/a&gt;markdown 语法&lt;/h1&gt;&lt;p&gt;使用两个中括号[[]]，可以链接到本地文件，也可以输入先【#】可以链</summary>
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="markdown" scheme="http://example.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/48932956c8bb.html"/>
+    <id>http://example.com/48932956c8bb.html</id>
+    <published>2023-07-17T18:18:54.053Z</published>
+    <updated>2023-08-12T17:01:51.714Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+  </entry>
+  
+</feed>

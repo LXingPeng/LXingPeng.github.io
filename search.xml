@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>markdown语法</title>
+    <url>//01f10f71192f.html</url>
+    <content><![CDATA[<h1 id="markdown-语法"><a href="#markdown-语法" class="headerlink" title="markdown 语法"></a>markdown 语法</h1><p>使用两个中括号[[]]，可以链接到本地文件，也可以输入先【#】可以链接到标题，也可以先输入【^】链接文本块，也可以先输入【|】指定的文本</p>
+<p>反向链接到文件示例：<a href="Obsidian%E5%8F%8D%E5%90%91%E9%93%BE%E6%8E%A5%E6%96%87%E4%BB%B6.md">Obsidian反向链接文件</a></p>
+<p>备注，支持以下文件的嵌入：</p>
+<ul>
+<li>Markdown 文件：md;</li>
+<li>图像文件：png, jpg, jpeg, gif, bmp, svg; 其中外引图片不会直接显示图片；</li>
+<li>音频文件：mp3, webm, wav, m4a, ogg, 3gp, flac;</li>
+<li>视频文件：mp4, webm, ogv;</li>
+<li>PDF 文件：pdf.</li>
+</ul>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>备注：最高支持六级标题</p>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>引用的使用方式：&gt;</p>
+<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><pre><code>咋收费的
+</code></pre>
+<p>行内代码使用方式：&#96;&#96;</p>
+<pre><code>双重身份
+</code></pre>
+<p>代码块使用方式：&#96;&#96;&#96;+ 编程语言</p>
+<h1 id="表格的使用"><a href="#表格的使用" class="headerlink" title="表格的使用"></a>表格的使用</h1><table>
+<thead>
+<tr>
+<th>表头1</th>
+<th>表头2</th>
+<th>表头3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格1</td>
+<td>单元格2</td>
+<td>单元格3</td>
+</tr>
+</tbody></table>
+<p>备注：必须要存在第二行的|-|-|-|<br>如需复制示例，请将隐藏起来的 br 标签去掉  </p>
+<h1 id="序列列表"><a href="#序列列表" class="headerlink" title="序列列表"></a>序列列表</h1><ol>
+<li>有序列表使用语法：数值 + . + 空格  </li>
+<li>无序列表使用语法：+ 或者 - 或者 * + 空格</li>
+</ol>
+<h1 id="任务列表（复选框）"><a href="#任务列表（复选框）" class="headerlink" title="任务列表（复选框）"></a>任务列表（复选框）</h1><p>使用语法：- + 空格 + [ + 空格 + ]</p>
+<h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><blockquote>
+<p>行内注释和跨行注释：</p>
+</blockquote>
+<p>% % abd % %</p>
+<h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><ol>
+<li>直接复制粘贴</li>
+<li>直接将图片拖进来</li>
+</ol>
+<h1 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h1><p>字体加粗：<strong>需要加粗的字体</strong>；<br>字体倾斜：<em>需要倾斜的字体</em>；<br>字体倾斜加粗：<em><strong>需要倾斜和加粗的字体</strong></em>；<br>字体居中：&lt; center &gt; 文本居中 &lt; &#x2F;center &gt; ；<br>字体高亮：&#x3D;&#x3D;需要高亮的文本&#x3D;&#x3D;；  </p>
+<h1 id="线的样式"><a href="#线的样式" class="headerlink" title="线的样式"></a>线的样式</h1><p>删除线：<del>删除线的内容</del>；<br>下划线：<u>下划线的内容</u> ；<br>水平分割线：*** 或者 —  </p>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><ol>
+<li><p>第一种超链接  </p>
+<p>&lt;链接地址&gt;，使用尖括号的形式，中间存放链接地址，即为超链接  </p>
+</li>
+<li><p>第二种超链接  </p>
+<p>使用[] ()的形式，其中[]存放显示的内容，()存放具体链接</p>
+</li>
+</ol>
+<h1 id="HTML-语法"><a href="#HTML-语法" class="headerlink" title="HTML 语法"></a>HTML 语法</h1><p>在 md 文档中可以直接使用 HTML 语法<br>HTML语法之字体<br>相关链接：<a href="https://unicode-table.com/cn/">https://unicode-table.com/cn/</a></p>
+<h1 id="数学表达式"><a href="#数学表达式" class="headerlink" title="数学表达式"></a>数学表达式</h1><p>mathjax 官网：<a href="https://www.mathjax.org/">https://www.mathjax.org/</a><br>katex 官网：<a href="https://katex.org/">https://katex.org/</a><br>参考链接：<a href="https://blog.csdn.net/weixin_42521409/article/details/120019337">https://blog.csdn.net/weixin_42521409&#x2F;article&#x2F;details&#x2F;120019337</a><br>参考链接：<a href="https://blog.csdn.net/See_Star/article/details/103388949">https://blog.csdn.net/See_Star&#x2F;article&#x2F;details&#x2F;103388949</a></p>
+<ol>
+<li>行内数学表达式使用语法：$数学公式$  </li>
+<li>独行数据表达式使用语法：$ $数学公式$ $</li>
+</ol>
+<h2 id="上标、下标"><a href="#上标、下标" class="headerlink" title="上标、下标"></a>上标、下标</h2><ol>
+<li>上标符号，符合^，如： x 4 x ^ 4 x4，显示为： x 4 x^4 x4</li>
+<li>下标符号，符号_，如： C O 2 CO _ 2 CO2​，显示为： C O 2 CO_2 CO2​</li>
+</ol>
+<h2 id="基础运算"><a href="#基础运算" class="headerlink" title="基础运算"></a>基础运算</h2><ol>
+<li>加法运算：符号：+，如： x + y &#x3D; z x + y &#x3D; z x+y&#x3D;z，显示为 x + y &#x3D; z x + y &#x3D; z x+y&#x3D;z</li>
+<li>减法运算：符号：-，如： x − y &#x3D; z x - y &#x3D; z x−y&#x3D;z，显示为： x − y &#x3D; z x - y &#x3D; z x−y&#x3D;z</li>
+<li>加减运算：符号：\pm，如： x ± y &#x3D; z x \pm y &#x3D; z x±y&#x3D;z，显示为： x ± y &#x3D; z x \pm y &#x3D; z x±y&#x3D;z</li>
+<li>减加运算：符号：\mp，如： x ∓ y &#x3D; z x \mp y &#x3D; z x∓y&#x3D;z，显示为： x ∓ y &#x3D; z x \mp y &#x3D; z x∓y&#x3D;z</li>
+<li>点乘运算：符号：\cdot，如： x ⋅ y &#x3D; z x \cdot y &#x3D; z x⋅y&#x3D;z，显示为： x ⋅ y &#x3D; z x \cdot y &#x3D; z x⋅y&#x3D;z</li>
+<li>星乘运算：符号：\ast，如： x ∗ y &#x3D; z x \ast y &#x3D; z x∗y&#x3D;z，显示为： x ∗ y &#x3D; z x \ast y &#x3D; z x∗y&#x3D;z</li>
+<li>除法运算：符号：&#x2F;，如： x &#x2F; y &#x3D; z x &#x2F; y &#x3D; z x&#x2F;y&#x3D;z，显示为： x &#x2F; y &#x3D; z x &#x2F; y &#x3D; z x&#x2F;y&#x3D;z</li>
+<li>分式表示1：符号：\frac{分子}{分母}，如： x + y x − y \frac{x+y}{x-y} x−yx+y​，显示为： x + y x − y \frac{x+y}{x-y} x−yx+y​</li>
+<li>分式表示2：符号：{分子}\over{分母}，如： x + y x − y {x+y}\over{x-y} x−yx+y​，显示为： x + y x − y {x+y}\over{x-y} x−yx+y​</li>
+<li>绝对值：符号：||，如 ∣ x ∣ |x| ∣x∣，显示为： ∣ x ∣ |x| ∣x∣</li>
+</ol>
+<h2 id="高级运算"><a href="#高级运算" class="headerlink" title="高级运算"></a>高级运算</h2><ol>
+<li><p>平均数运算：  </p>
+</li>
+<li><p>开二次方运算：符号：\sqrt，如 x \sqrt{x} x ​，显示为： x \sqrt{x} x ​  </p>
+</li>
+<li><p>开方运算：符号：\sqrt<a href="https://www.csdn.net/tags/NtzaMg4sNTgwNTUtYmxvZwO0O0OO0O0O.html"></a>，如 y x \sqrt[x]{y} xy ​，显示为： y x \sqrt[x]{y} xy ​  </p>
+</li>
+<li><p>对数运算：符号：\log，如 log ⁡ ( x ) \log(x) log(x)，显示为： log ⁡ ( x ) \log(x) log(x)  </p>
+</li>
+<li><p>极限运算：符号：\lim，如 lim ⁡ y → 0 x → ∞ x y \lim^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} limy→0x→∞​yx​，显示为： lim ⁡ y → 0 x → ∞ x y \lim^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} limy→0x→∞​yx​  </p>
+</li>
+<li><p>极限运算：符号：\displaystyle \lim，如 lim ⁡ y → 0 x → ∞ x y \displaystyle \lim^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} y→0limx→∞​yx​，显示为： lim ⁡ y → 0 x → ∞ x y \displaystyle \lim^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} y→0limx→∞​yx​  </p>
+</li>
+<li><p>求和运算：符号：\sum，如 ∑ y → 0 x → ∞ x y \sum^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} ∑y→0x→∞​yx​，显示为： ∑ y → 0 x → ∞ x y \sum^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} ∑y→0x→∞​yx​  </p>
+</li>
+<li><p>求和运算：符号：\dispalystyle \sum，如 ∑ y → 0 x → ∞ x y \displaystyle \sum^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} y→0∑x→∞​yx​，显示为： ∑ y → 0 x → ∞ x y \displaystyle \sum^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} y→0∑x→∞​yx​  </p>
+</li>
+<li><p>积分运算：符号：\int，如 ∫ 0 ∞ x d x \int^{\infty}<em>{0}{xdx} ∫0∞​xdx，显示为： ∫ 0 ∞ x d x \int^{\infty}</em>{0}{xdx} ∫0∞​xdx  </p>
+</li>
+<li><p>积分运算：符号：\dispalystyle \int，如 ∫ 0 ∞ x d x \displaystyle \int^{\infty}<em>{0}{xdx} ∫0∞​xdx，显示为： ∫ 0 ∞ x d x \displaystyle \int^{\infty}</em>{0}{xdx} ∫0∞​xdx  </p>
+</li>
+<li><p>微分运算：符号：\partial，如 ∂ x ∂ y \frac{\partial x}{\partial y} ∂y∂x​，显示为： ∂ x ∂ y \frac{\partial x}{\partial y} ∂y∂x​</p>
+</li>
+</ol>
+<h1 id="字符"><a href="#字符" class="headerlink" title="字符"></a>字符</h1><ul>
+<li>空格字符：&amp; nbsp;</li>
+</ul>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>//48932956c8bb.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+  </entry>
+</search>
