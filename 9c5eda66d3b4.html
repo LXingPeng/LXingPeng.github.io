@@ -1,143 +1,271 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>markdown语法</title>
-    <url>//01f10f71192f.html</url>
-    <content><![CDATA[<h1 id="markdown-语法"><a href="#markdown-语法" class="headerlink" title="markdown 语法"></a>markdown 语法</h1><p>使用两个中括号[[]]，可以链接到本地文件，也可以输入先【#】可以链接到标题，也可以先输入【^】链接文本块，也可以先输入【|】指定的文本</p>
-<p>反向链接到文件示例：<a href="Obsidian%E5%8F%8D%E5%90%91%E9%93%BE%E6%8E%A5%E6%96%87%E4%BB%B6.md">Obsidian反向链接文件</a></p>
-<p>备注，支持以下文件的嵌入：</p>
-<ul>
-<li>Markdown 文件：md;</li>
-<li>图像文件：png, jpg, jpeg, gif, bmp, svg; 其中外引图片不会直接显示图片；</li>
-<li>音频文件：mp3, webm, wav, m4a, ogg, 3gp, flac;</li>
-<li>视频文件：mp4, webm, ogv;</li>
-<li>PDF 文件：pdf.</li>
-</ul>
-<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>备注：最高支持六级标题</p>
-<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>引用的使用方式：&gt;</p>
-<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><pre><code>咋收费的
-</code></pre>
-<p>行内代码使用方式：&#96;&#96;</p>
-<pre><code>双重身份
-</code></pre>
-<p>代码块使用方式：&#96;&#96;&#96;+ 编程语言</p>
-<h1 id="表格的使用"><a href="#表格的使用" class="headerlink" title="表格的使用"></a>表格的使用</h1><table>
-<thead>
-<tr>
-<th>表头1</th>
-<th>表头2</th>
-<th>表头3</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>单元格1</td>
-<td>单元格2</td>
-<td>单元格3</td>
-</tr>
-</tbody></table>
-<p>备注：必须要存在第二行的|-|-|-|<br>如需复制示例，请将隐藏起来的 br 标签去掉  </p>
-<h1 id="序列列表"><a href="#序列列表" class="headerlink" title="序列列表"></a>序列列表</h1><ol>
-<li>有序列表使用语法：数值 + . + 空格  </li>
-<li>无序列表使用语法：+ 或者 - 或者 * + 空格</li>
-</ol>
-<h1 id="任务列表（复选框）"><a href="#任务列表（复选框）" class="headerlink" title="任务列表（复选框）"></a>任务列表（复选框）</h1><p>使用语法：- + 空格 + [ + 空格 + ]</p>
-<h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><blockquote>
-<p>行内注释和跨行注释：</p>
-</blockquote>
-<p>% % abd % %</p>
-<h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><ol>
-<li>直接复制粘贴</li>
-<li>直接将图片拖进来</li>
-</ol>
-<h1 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h1><p>字体加粗：<strong>需要加粗的字体</strong>；<br>字体倾斜：<em>需要倾斜的字体</em>；<br>字体倾斜加粗：<em><strong>需要倾斜和加粗的字体</strong></em>；<br>字体居中：&lt; center &gt; 文本居中 &lt; &#x2F;center &gt; ；<br>字体高亮：&#x3D;&#x3D;需要高亮的文本&#x3D;&#x3D;；  </p>
-<h1 id="线的样式"><a href="#线的样式" class="headerlink" title="线的样式"></a>线的样式</h1><p>删除线：<del>删除线的内容</del>；<br>下划线：<u>下划线的内容</u> ；<br>水平分割线：*** 或者 —  </p>
-<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><ol>
-<li><p>第一种超链接  </p>
-<p>&lt;链接地址&gt;，使用尖括号的形式，中间存放链接地址，即为超链接  </p>
-</li>
-<li><p>第二种超链接  </p>
-<p>使用[] ()的形式，其中[]存放显示的内容，()存放具体链接</p>
-</li>
-</ol>
-<h1 id="HTML-语法"><a href="#HTML-语法" class="headerlink" title="HTML 语法"></a>HTML 语法</h1><p>在 md 文档中可以直接使用 HTML 语法<br>HTML语法之字体<br>相关链接：<a href="https://unicode-table.com/cn/">https://unicode-table.com/cn/</a></p>
-<h1 id="数学表达式"><a href="#数学表达式" class="headerlink" title="数学表达式"></a>数学表达式</h1><p>mathjax 官网：<a href="https://www.mathjax.org/">https://www.mathjax.org/</a><br>katex 官网：<a href="https://katex.org/">https://katex.org/</a><br>参考链接：<a href="https://blog.csdn.net/weixin_42521409/article/details/120019337">https://blog.csdn.net/weixin_42521409&#x2F;article&#x2F;details&#x2F;120019337</a><br>参考链接：<a href="https://blog.csdn.net/See_Star/article/details/103388949">https://blog.csdn.net/See_Star&#x2F;article&#x2F;details&#x2F;103388949</a></p>
-<ol>
-<li>行内数学表达式使用语法：$数学公式$  </li>
-<li>独行数据表达式使用语法：$ $数学公式$ $</li>
-</ol>
-<h2 id="上标、下标"><a href="#上标、下标" class="headerlink" title="上标、下标"></a>上标、下标</h2><ol>
-<li>上标符号，符合^，如： x 4 x ^ 4 x4，显示为： x 4 x^4 x4</li>
-<li>下标符号，符号_，如： C O 2 CO _ 2 CO2​，显示为： C O 2 CO_2 CO2​</li>
-</ol>
-<h2 id="基础运算"><a href="#基础运算" class="headerlink" title="基础运算"></a>基础运算</h2><ol>
-<li>加法运算：符号：+，如： x + y &#x3D; z x + y &#x3D; z x+y&#x3D;z，显示为 x + y &#x3D; z x + y &#x3D; z x+y&#x3D;z</li>
-<li>减法运算：符号：-，如： x − y &#x3D; z x - y &#x3D; z x−y&#x3D;z，显示为： x − y &#x3D; z x - y &#x3D; z x−y&#x3D;z</li>
-<li>加减运算：符号：\pm，如： x ± y &#x3D; z x \pm y &#x3D; z x±y&#x3D;z，显示为： x ± y &#x3D; z x \pm y &#x3D; z x±y&#x3D;z</li>
-<li>减加运算：符号：\mp，如： x ∓ y &#x3D; z x \mp y &#x3D; z x∓y&#x3D;z，显示为： x ∓ y &#x3D; z x \mp y &#x3D; z x∓y&#x3D;z</li>
-<li>点乘运算：符号：\cdot，如： x ⋅ y &#x3D; z x \cdot y &#x3D; z x⋅y&#x3D;z，显示为： x ⋅ y &#x3D; z x \cdot y &#x3D; z x⋅y&#x3D;z</li>
-<li>星乘运算：符号：\ast，如： x ∗ y &#x3D; z x \ast y &#x3D; z x∗y&#x3D;z，显示为： x ∗ y &#x3D; z x \ast y &#x3D; z x∗y&#x3D;z</li>
-<li>除法运算：符号：&#x2F;，如： x &#x2F; y &#x3D; z x &#x2F; y &#x3D; z x&#x2F;y&#x3D;z，显示为： x &#x2F; y &#x3D; z x &#x2F; y &#x3D; z x&#x2F;y&#x3D;z</li>
-<li>分式表示1：符号：\frac{分子}{分母}，如： x + y x − y \frac{x+y}{x-y} x−yx+y​，显示为： x + y x − y \frac{x+y}{x-y} x−yx+y​</li>
-<li>分式表示2：符号：{分子}\over{分母}，如： x + y x − y {x+y}\over{x-y} x−yx+y​，显示为： x + y x − y {x+y}\over{x-y} x−yx+y​</li>
-<li>绝对值：符号：||，如 ∣ x ∣ |x| ∣x∣，显示为： ∣ x ∣ |x| ∣x∣</li>
-</ol>
-<h2 id="高级运算"><a href="#高级运算" class="headerlink" title="高级运算"></a>高级运算</h2><ol>
-<li><p>平均数运算：  </p>
-</li>
-<li><p>开二次方运算：符号：\sqrt，如 x \sqrt{x} x ​，显示为： x \sqrt{x} x ​  </p>
-</li>
-<li><p>开方运算：符号：\sqrt<a href="https://www.csdn.net/tags/NtzaMg4sNTgwNTUtYmxvZwO0O0OO0O0O.html"></a>，如 y x \sqrt[x]{y} xy ​，显示为： y x \sqrt[x]{y} xy ​  </p>
-</li>
-<li><p>对数运算：符号：\log，如 log ⁡ ( x ) \log(x) log(x)，显示为： log ⁡ ( x ) \log(x) log(x)  </p>
-</li>
-<li><p>极限运算：符号：\lim，如 lim ⁡ y → 0 x → ∞ x y \lim^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} limy→0x→∞​yx​，显示为： lim ⁡ y → 0 x → ∞ x y \lim^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} limy→0x→∞​yx​  </p>
-</li>
-<li><p>极限运算：符号：\displaystyle \lim，如 lim ⁡ y → 0 x → ∞ x y \displaystyle \lim^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} y→0limx→∞​yx​，显示为： lim ⁡ y → 0 x → ∞ x y \displaystyle \lim^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} y→0limx→∞​yx​  </p>
-</li>
-<li><p>求和运算：符号：\sum，如 ∑ y → 0 x → ∞ x y \sum^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} ∑y→0x→∞​yx​，显示为： ∑ y → 0 x → ∞ x y \sum^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} ∑y→0x→∞​yx​  </p>
-</li>
-<li><p>求和运算：符号：\dispalystyle \sum，如 ∑ y → 0 x → ∞ x y \displaystyle \sum^{x \to \infty}<em>{y \to 0}{\frac{x}{y}} y→0∑x→∞​yx​，显示为： ∑ y → 0 x → ∞ x y \displaystyle \sum^{x \to \infty}</em>{y \to 0}{\frac{x}{y}} y→0∑x→∞​yx​  </p>
-</li>
-<li><p>积分运算：符号：\int，如 ∫ 0 ∞ x d x \int^{\infty}<em>{0}{xdx} ∫0∞​xdx，显示为： ∫ 0 ∞ x d x \int^{\infty}</em>{0}{xdx} ∫0∞​xdx  </p>
-</li>
-<li><p>积分运算：符号：\dispalystyle \int，如 ∫ 0 ∞ x d x \displaystyle \int^{\infty}<em>{0}{xdx} ∫0∞​xdx，显示为： ∫ 0 ∞ x d x \displaystyle \int^{\infty}</em>{0}{xdx} ∫0∞​xdx  </p>
-</li>
-<li><p>微分运算：符号：\partial，如 ∂ x ∂ y \frac{\partial x}{\partial y} ∂y∂x​，显示为： ∂ x ∂ y \frac{\partial x}{\partial y} ∂y∂x​</p>
-</li>
-</ol>
-<h1 id="字符"><a href="#字符" class="headerlink" title="字符"></a>字符</h1><ul>
-<li>空格字符：&amp; nbsp;</li>
-</ul>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>//48932956c8bb.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><h2 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h2 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<link rel="stylesheet" href="/css/main.css">
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h2 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h2 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>搭建过程整理</title>
-    <url>//9c5eda66d3b4.html</url>
-    <content><![CDATA[<h1 id="1-准备github"><a href="#1-准备github" class="headerlink" title="1.准备github"></a>1.准备github</h1><h1 id="2-安装git"><a href="#2-安装git" class="headerlink" title="2.安装git"></a>2.安装git</h1><h1 id="3-将git与github绑定"><a href="#3-将git与github绑定" class="headerlink" title="3.将git与github绑定"></a>3.将git与github绑定</h1><pre><code>参考文章：
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":"ture","trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="1.准备github2.安装git3.将git与github绑定参考文章：     [个人博客第3篇——绑定GitHub并提交文件 - 知乎 (zhihu.com)](https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;103391101)     [创建GitHub仓库并与本地Git绑定_ttxs_hc的博客-CSDN博客](https:&#x2F;&#x2F;blog.csdn.net&#x2F;hc_ttxs&#x2F;ar">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建过程整理">
+<meta property="og:url" content="http://example.com/9c5eda66d3b4.html">
+<meta property="og:site_name" content="摆摆🐟">
+<meta property="og:description" content="1.准备github2.安装git3.将git与github绑定参考文章：     [个人博客第3篇——绑定GitHub并提交文件 - 知乎 (zhihu.com)](https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;103391101)     [创建GitHub仓库并与本地Git绑定_ttxs_hc的博客-CSDN博客](https:&#x2F;&#x2F;blog.csdn.net&#x2F;hc_ttxs&#x2F;ar">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-28T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-08-29T15:48:48.610Z">
+<meta property="article:author" content="LXing">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/9c5eda66d3b4.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>搭建过程整理 | 摆摆🐟</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="摆摆🐟" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">摆摆🐟</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-schedule">
+
+    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a>
+
+  </li>
+        <li class="menu-item menu-item-resources">
+
+    <a href="/resources/" rel="section"><i class="fa fa-download fa-fw"></i>资源</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/yourname" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/9c5eda66d3b4.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="LXing">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="摆摆🐟">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          搭建过程整理
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-08-29 00:00:00 / 修改时间：23:48:48" itemprop="dateCreated datePublished" datetime="2023-08-29T00:00:00+08:00">2023-08-29</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>7 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="1-准备github"><a href="#1-准备github" class="headerlink" title="1.准备github"></a>1.准备github</h1><h1 id="2-安装git"><a href="#2-安装git" class="headerlink" title="2.安装git"></a>2.安装git</h1><h1 id="3-将git与github绑定"><a href="#3-将git与github绑定" class="headerlink" title="3.将git与github绑定"></a>3.将git与github绑定</h1><pre><code>参考文章：
     [个人博客第3篇——绑定GitHub并提交文件 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/103391101)
     [创建GitHub仓库并与本地Git绑定_ttxs_hc的博客-CSDN博客](https://blog.csdn.net/hc_ttxs/article/details/79375788)
 出现的一些问题及解决方案参考：
@@ -162,9 +290,9 @@
 </li>
 </ol>
 <h1 id="5-安装node-js和hexo"><a href="#5-安装node-js和hexo" class="headerlink" title="5.安装node.js和hexo"></a>5.安装node.js和hexo</h1><h2 id="参考文章："><a href="#参考文章：" class="headerlink" title="参考文章："></a>参考文章：</h2><blockquote>
-<p>[个人博客第5篇——安装node.js和Hexo - 知乎 (zhihu.com)](<a href="https://zhuanlan.zhihu.com/p/105715224">https://zhuanlan.zhihu.com/p/105715224</a><br><a href="https://blog.csdn.net/antma/article/details/86104068">node.js 安装详细步骤教程_node官网怎么下载_程序员老油条的博客-CSDN博客</a><br><a href="https://blog.csdn.net/xijinno1/article/details/128774375">Nodejs安装教程_西晋的no1的博客-CSDN博客</a><br><a href="https://hexo.io/zh-cn/docs/index.html">文档 | Hexo</a></p>
+<p>[个人博客第5篇——安装node.js和Hexo - 知乎 (zhihu.com)](<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105715224">https://zhuanlan.zhihu.com/p/105715224</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/antma/article/details/86104068">node.js 安装详细步骤教程_node官网怎么下载_程序员老油条的博客-CSDN博客</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/xijinno1/article/details/128774375">Nodejs安装教程_西晋的no1的博客-CSDN博客</a><br><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/index.html">文档 | Hexo</a></p>
 </blockquote>
-<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">	安装hexo代码</span><br><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org -verbose</span><br><span class="line"></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">npm cache clean --force</span><br><span class="line">	命令清除缓存，然后重新执行安装命令。|</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">	安装hexo代码</span><br><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org -verbose</span><br><span class="line"></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">npm cache clean --force</span><br><span class="line">	命令清除缓存，然后重新执行安装命令。|</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h2 id="出现的问题及解决方案："><a href="#出现的问题及解决方案：" class="headerlink" title="出现的问题及解决方案："></a>出现的问题及解决方案：</h2><ol>
 <li>确认系统环境是否满足要求：Hexo 需要 Node.js 环境，确保已经安装并配置了正确的 Node.js 版本。可以在终端执行 <code>node -v</code> 和 <code>npm -v</code> 命令来查看是否正确安装。</li>
 <li>检查网络连接：如果安装过程中出现网络错误，尝试使用代理或者切换到稳定的网络环境再次安装。</li>
@@ -173,17 +301,17 @@
 <li>查看安装日志：执行安装命令时可以加上 <code>-verbose</code> 参数，查看详细的安装日志，以便更好地排查问题。如果以上方法无法解决问题，可以提供更具体的错误信息或日志，以便给出更准确的解决方案。</li>
 <li>hexo  的path路径<br> ![[Pasted image 20230829213432.png]]<br> ![[Pasted image 20230829213451.png]]<br> 注意最后在  _config.yml 文件中的最后branch中的内容根据具体情况而定<br> <img src="data:image/png;base64,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"></li>
 </ol>
-<h1 id="6-解析域名"><a href="#6-解析域名" class="headerlink" title="6. 解析域名"></a>6. 解析域名</h1><p>参考文章：<br>    <a href="https://zhuanlan.zhihu.com/p/103813944">https://zhuanlan.zhihu.com/p/103813944</a></p>
-<h1 id="7-设置主题"><a href="#7-设置主题" class="headerlink" title="7.设置主题"></a>7.设置主题</h1><p>参考文章：<br>    <a href="https://zhuanlan.zhihu.com/p/105584373">https://zhuanlan.zhihu.com/p/105584373</a></p>
-<h1 id="8-主题优化"><a href="#8-主题优化" class="headerlink" title="8.主题优化"></a>8.主题优化</h1><p>参考文章：<br>    <a href="https://zhuanlan.zhihu.com/p/106060640">https://zhuanlan.zhihu.com/p/106060640</a></p>
-<h1 id="cname文件的配置决定GitHub仓库和网址的连接-DNS"><a href="#cname文件的配置决定GitHub仓库和网址的连接-DNS" class="headerlink" title="cname文件的配置决定GitHub仓库和网址的连接 DNS"></a>cname文件的配置决定GitHub仓库和网址的连接 DNS</h1><p>要在本地目录下的source中保存才有效，不会出现每次上传就消失的情况，且cname文件无后缀（不是.txt后缀）<br><a href="https://www.zhihu.com/question/28814437">https://www.zhihu.com/question/28814437</a></p>
+<h1 id="6-解析域名"><a href="#6-解析域名" class="headerlink" title="6. 解析域名"></a>6. 解析域名</h1><p>参考文章：<br>    <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103813944">https://zhuanlan.zhihu.com/p/103813944</a></p>
+<h1 id="7-设置主题"><a href="#7-设置主题" class="headerlink" title="7.设置主题"></a>7.设置主题</h1><p>参考文章：<br>    <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105584373">https://zhuanlan.zhihu.com/p/105584373</a></p>
+<h1 id="8-主题优化"><a href="#8-主题优化" class="headerlink" title="8.主题优化"></a>8.主题优化</h1><p>参考文章：<br>    <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/106060640">https://zhuanlan.zhihu.com/p/106060640</a></p>
+<h1 id="cname文件的配置决定GitHub仓库和网址的连接-DNS"><a href="#cname文件的配置决定GitHub仓库和网址的连接-DNS" class="headerlink" title="cname文件的配置决定GitHub仓库和网址的连接 DNS"></a>cname文件的配置决定GitHub仓库和网址的连接 DNS</h1><p>要在本地目录下的source中保存才有效，不会出现每次上传就消失的情况，且cname文件无后缀（不是.txt后缀）<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/28814437">https://www.zhihu.com/question/28814437</a></p>
 <p>Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</p>
 <blockquote>
-<p><a href="https://zhuanlan.zhihu.com/p/618864711">https://zhuanlan.zhihu.com/p/618864711</a><br><a href="https://blog.csdn.net/weixin_42619772/article/details/123273163">Hexo Matery主题添加百度统计_scluis的博客-CSDN博客</a><br><a href="https://blog.csdn.net/zgd826237710/article/details/99671027">Hexo 好看的主题推荐_hexo主题推荐_浮沉半生的博客-CSDN博客</a><br>[Hexo 修改导航栏、标签、分类、归档图标，一分钟搞定_hexo 通知栏_Hyper9999的博客-CSDN博客](<a href="https://blog.csdn.net/h_kaka/article/details/119655493">https://blog.csdn.net/h_kaka/article/details/119655493</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/618864711">https://zhuanlan.zhihu.com/p/618864711</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42619772/article/details/123273163">Hexo Matery主题添加百度统计_scluis的博客-CSDN博客</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/zgd826237710/article/details/99671027">Hexo 好看的主题推荐_hexo主题推荐_浮沉半生的博客-CSDN博客</a><br>[Hexo 修改导航栏、标签、分类、归档图标，一分钟搞定_hexo 通知栏_Hyper9999的博客-CSDN博客](<a target="_blank" rel="noopener" href="https://blog.csdn.net/h_kaka/article/details/119655493">https://blog.csdn.net/h_kaka/article/details/119655493</a></p>
 </blockquote>
 <p>hexo博客换主题</p>
 <blockquote>
-<p><a href="https://zhuanlan.zhihu.com/p/385525053">https://zhuanlan.zhihu.com/p/385525053</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/385525053">https://zhuanlan.zhihu.com/p/385525053</a></p>
 </blockquote>
 <h1 id="9-写博客"><a href="#9-写博客" class="headerlink" title="9.写博客"></a>9.写博客</h1><h2 id="配置文件命名规则和路由地址"><a href="#配置文件命名规则和路由地址" class="headerlink" title="配置文件命名规则和路由地址"></a>配置文件命名规则和路由地址</h2><p>Hexo 默认以标题作为文件名称，可以通过 Hexo 的配置文件 _config.yml 中的 new_post_name 参数来改变默认的文件名称，例如：</p>
 <blockquote>
@@ -229,7 +357,7 @@
 <p>配置浏览器地址栏中的URL。同样在 Hexo 的配置文件 _config.yml 中, 配置 permalink 属性 ，例如：</p>
 <p>permalink:&#x2F;blog&#x2F;:year&#x2F;:month&#x2F;:day&#x2F;:title&#x2F;</p>
 <p>当在地址栏访问时，就会如下方式呈现出来：</p>
-<p><a href="http://localhost:4000/blog/2017/01/13/hexo-blog/">http://localhost:4000/blog/2017/01/13/hexo-blog/</a></p>
+<p><a target="_blank" rel="noopener" href="http://localhost:4000/blog/2017/01/13/hexo-blog/">http://localhost:4000/blog/2017/01/13/hexo-blog/</a></p>
 <h2 id="创建博客"><a href="#创建博客" class="headerlink" title="创建博客"></a>创建博客</h2><p>在命令行中用如下命令创建一篇新的文章</p>
 <p>&#96;hexo new[layout]<title></p>
 <table>
@@ -292,7 +420,7 @@ categories: 使用指南
 预览： hexo server
 </code></pre>
 <h2 id="出现的问题及其解决方案"><a href="#出现的问题及其解决方案" class="headerlink" title="出现的问题及其解决方案"></a>出现的问题及其解决方案</h2><blockquote>
-<p><a href="https://blog.csdn.net/qq_36759224/article/details/92443159">Hexo 博客本地预览报错：Error: listen EADDRINUSE 0.0.0.0:4000_IT.BOB的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36759224/article/details/92443159">Hexo 博客本地预览报错：Error: listen EADDRINUSE 0.0.0.0:4000_IT.BOB的博客-CSDN博客</a></p>
 </blockquote>
 <pre><code>1. 删除.deploy_git文件夹;
 2. 输入git config --global core.autocrlf false
@@ -302,7 +430,7 @@ categories: 使用指南
     hexo d
 </code></pre>
 <blockquote>
-<p><a href="https://blog.csdn.net/HTL2018/article/details/106876940">hexo发生error：spawn failed错误的解决方法_error: spawn failed_HuangTLhit的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/HTL2018/article/details/106876940">hexo发生error：spawn failed错误的解决方法_error: spawn failed_HuangTLhit的博客-CSDN博客</a></p>
 </blockquote>
 <pre><code>打开 Git Shell 进入创建的文件夹，依次输入以下命令：
 
@@ -324,6 +452,281 @@ hexo clean
 hexo generate  
 hexo deploy
 </code></pre>
-]]></content>
-  </entry>
-</search>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div></div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="LXing 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.jpg" alt="LXing 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/01f10f71192f.html" rel="prev" title="markdown语法">
+      <i class="fa fa-chevron-left"></i> markdown语法
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E5%87%86%E5%A4%87github"><span class="nav-number">1.</span> <span class="nav-text">1.准备github</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85git"><span class="nav-number">2.</span> <span class="nav-text">2.安装git</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-%E5%B0%86git%E4%B8%8Egithub%E7%BB%91%E5%AE%9A"><span class="nav-number">3.</span> <span class="nav-text">3.将git与github绑定</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-%E8%B4%AD%E4%B9%B0%E5%9F%9F%E5%90%8D"><span class="nav-number">4.</span> <span class="nav-text">4.购买域名</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-%E5%AE%89%E8%A3%85node-js%E5%92%8Chexo"><span class="nav-number">5.</span> <span class="nav-text">5.安装node.js和hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0%EF%BC%9A"><span class="nav-number">5.1.</span> <span class="nav-text">参考文章：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85hexo"><span class="nav-number">5.2.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%9A"><span class="nav-number">5.3.</span> <span class="nav-text">出现的问题及解决方案：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8D"><span class="nav-number">6.</span> <span class="nav-text">6. 解析域名</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-%E8%AE%BE%E7%BD%AE%E4%B8%BB%E9%A2%98"><span class="nav-number">7.</span> <span class="nav-text">7.设置主题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96"><span class="nav-number">8.</span> <span class="nav-text">8.主题优化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#cname%E6%96%87%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE%E5%86%B3%E5%AE%9AGitHub%E4%BB%93%E5%BA%93%E5%92%8C%E7%BD%91%E5%9D%80%E7%9A%84%E8%BF%9E%E6%8E%A5-DNS"><span class="nav-number">9.</span> <span class="nav-text">cname文件的配置决定GitHub仓库和网址的连接 DNS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-%E5%86%99%E5%8D%9A%E5%AE%A2"><span class="nav-number">10.</span> <span class="nav-text">9.写博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99%E5%92%8C%E8%B7%AF%E7%94%B1%E5%9C%B0%E5%9D%80"><span class="nav-number">10.1.</span> <span class="nav-text">配置文件命名规则和路由地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="nav-number">10.2.</span> <span class="nav-text">创建博客</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="LXing"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">LXing</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/LXingPeng" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;LXingPeng" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1803941125@qq.com" title="E-Mail → mailto:1803941125@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">LXing</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">11k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">10 分钟</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+<!-- 网站运行时间的设置 -->
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("03/01/2023 10:00:00"); //此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒.";
+    }
+setInterval("createtime()",250);
+</script>
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
